@@ -1,0 +1,42 @@
+.statistics{
+    margin-top: 20px;
+    margin-bottom: 20px;
+width: 600px;
+height: 200px;
+
+}
+
+.title{
+    text-align: center;
+}
+
+.statList{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.item{
+    width: 100px;
+    height: 80px;
+
+text-align: center;
+
+}
+
+
+
+.label{display: block;
+text-align: center;
+margin-top: 10px;
+margin-bottom: 10px;
+
+}
+
+.percentage{text-align: center;
+font-weight: 700;
+font-size: 26px;
+color: rgb(72, 61, 61);
+
+}
+

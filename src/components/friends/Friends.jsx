@@ -1,10 +1,13 @@
-// import PropTypes from "prop-types";
+
 import React from 'react';
+import css from 'components/friends/Friends.module.css'
 
 const FriendList = ( {children}) => {
-    return <ul className="friend-list">
+    return <ul className={css.friendList}>
        {children}
   </ul>;
 };
+
+
 
 export default FriendList;

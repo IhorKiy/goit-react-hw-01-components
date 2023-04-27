@@ -1,0 +1,35 @@
+.item {
+  list-style-type: none;
+  width: 200px;
+  height: 80px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+  padding: 10px;
+  background-color: rgb(234, 227, 227);
+  
+}
+
+.avatar {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.name {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.online {
+  border: 3px;
+box-shadow: 0px 2px 8px 7px rgba(5, 173, 54, 0.26);
+    -webkit-box-shadow: 0px 2px 8px 7px rgba(5, 173, 54, 0.26);
+    -moz-box-shadow: 0px 2px 8px 7px rgba(5, 173, 54, 0.26);
+}
+
+.offline {
+box-shadow: 0px 2px 8px 7px rgba(236, 9, 120, 0.26);
+    -webkit-box-shadow: 0px 2px 8px 7px rgba(236, 9, 120, 0.26);
+    -moz-box-shadow: 0px 2px 8px 7px rgba(236, 9, 120, 0.26);
+}
