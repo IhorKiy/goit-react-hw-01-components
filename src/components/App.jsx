@@ -6,6 +6,9 @@ import data from './statistic/data.json';
 import FriendList from './friends/Friends';
 import friends from './friends/friends1.json';
 import FriendListItem from './friends/FriendListItem';
+import TransactionHistory from './transaction/TransactionHistory';
+import transactions from './transaction/transactions.json';
+
 
 export const App = () => {
   return (
@@ -18,7 +21,8 @@ export const App = () => {
         stats={user.stats}
       />
       ,
-      <Statistics title="Upload stats" stats={data} />,
+      <Statistics title="Upload stats" stats={data} />
+      {/* <Statistics stats={data} /> */}
       <FriendList>
         {friends.map(friend => (
           <FriendListItem
@@ -30,6 +34,7 @@ export const App = () => {
         ))}
       </FriendList>
       ,
+      <TransactionHistory transactions={transactions} />
     </div>
   );
 };
