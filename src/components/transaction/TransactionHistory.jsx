@@ -25,7 +25,6 @@ function TransactionHistory({ transactions }) {
   );
 }
 
-
 TransactionHistory.propTypes = {
   transaction: PropTypes.arrayOf({
     id: PropTypes.string.isRequired,
