@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from 'components/Transaction/TransactionHistory.module.css';
+import css from 'components/transaction/TransactionHistory.module.css';
 
 function TransactionHistory({ transactions }) {
   return (

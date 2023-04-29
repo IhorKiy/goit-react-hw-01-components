@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from 'components/Friends/FriendsListItem.module.css';
+import css from 'components/friends/FriendsListItem.module.css';
 
 function FriendListItem({ friend }) {
   return (

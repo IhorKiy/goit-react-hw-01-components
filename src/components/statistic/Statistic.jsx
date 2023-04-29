@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import css from 'components/Statistic/Statistic.module.css';
+import css from 'components/statistic/Statistic.module.css';
 import getRandomHexColor from 'helpers/getRandomColor';
 
 const Statistics = ({ title, stats }) => {
