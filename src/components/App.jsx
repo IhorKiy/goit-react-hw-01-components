@@ -1,14 +1,12 @@
 import React from 'react';
-import user from './profile/user.json';
-import Profile from 'components/profile/Profile';
-import Statistics from './statistic/Statistic';
-import data from './statistic/data.json';
-import FriendList from './friends/Friends';
-import friends from './friends/friends1.json';
-import FriendListItem from './friends/FriendListItem';
-import TransactionHistory from './transaction/TransactionHistory';
-import transactions from './transaction/transactions.json';
-
+import user from './Profile/user.json';
+import Profile from 'components/Profile/Profile';
+import Statistics from './Statistic/Statistic';
+import data from './Statistic/data.json';
+import FriendList from './Friends/Friends';
+import friends from './Friends/friends1.json';
+import TransactionHistory from './Transaction/TransactionHistory';
+import transactions from './Transaction/transactions.json';
 
 export const App = () => {
   return (
@@ -21,13 +19,8 @@ export const App = () => {
         stats={user.stats}
       />
       ,
-      <Statistics title="Upload stats" stats={data} />
-      {/* <Statistics stats={data} /> */}
-      <FriendList>
-              <FriendListItem friends={friends}        
-          />
-              </FriendList>
-      ,
+      <Statistics title="Upload stats" stats={data} />,
+      <FriendList friends={friends} />,
       <TransactionHistory transactions={transactions} />
     </div>
   );
