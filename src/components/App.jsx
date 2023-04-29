@@ -10,7 +10,6 @@ import transactions from 'components/Transaction/transactions.json';
 
 
 
-
 export const App = () => {
   return (
     <div>
